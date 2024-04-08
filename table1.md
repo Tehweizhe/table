@@ -109,6 +109,7 @@
     <td>A20</td>
     <td>28</td>
   </tr>
+</table>
 
 <h2>Table 2</h2>
 <table>
