@@ -116,8 +116,34 @@
 
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Table 2</title>
+  <script>
+    function calculateValues() {
+      // Get the values from Table 1
+      var values = {
+        A5: 2,
+        A20: 28,
+        A15: 80,
+        A7: 5,
+        A13: 90,
+        A12: 3
+        // Add more values from Table 1 as needed
+      };
 
-<body>
+      // Calculate the values for Table 2
+      var alphaValue = values.A5 + values.A20;
+      var betaValue = values.A15 / values.A7;
+      var charlieValue = values.A13 * values.A12;
+
+      // Display the calculated values in Table 2
+      document.getElementById("alphaValue").innerText = alphaValue;
+      document.getElementById("betaValue").innerText = betaValue;
+      document.getElementById("charlieValue").innerText = charlieValue;
+    }
+  </script>
+</head>
+<body onload="calculateValues()">
 
 <h1>Table 2</h1>
 
@@ -128,17 +154,18 @@
   </tr>
   <tr>
     <td>Alpha</td>
-    <td>30</td>
+    <td id="alphaValue"></td>
   </tr>
   <tr>
     <td>Beta</td>
-    <td>16</td>
+    <td id="betaValue"></td>
   </tr>
   <tr>
     <td>Charlie</td>
-    <td>270</td>
+    <td id="charlieValue"></td>
   </tr>
 </table>
 
 </body>
 </html>
+
