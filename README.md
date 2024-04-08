@@ -3,7 +3,7 @@
 
 <body>
 
-<h2>Table 2</h2>
+<h1>Table 2</h1>
 
 <table>
   <tr>
