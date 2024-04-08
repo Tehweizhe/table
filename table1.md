@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<body></body>
+<body>
 <title>Table 1</title>
 </head>
-<body>
 <h1>Table 1</h1>
 <table>
 
