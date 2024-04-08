@@ -2,7 +2,6 @@
 <html>
 <head>
 <body>
-<title>Table 1</title>
 </head>
 <h1>Table 1</h1>
 <table>
