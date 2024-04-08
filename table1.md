@@ -5,7 +5,7 @@
 <title>Table 1</title>
 </head>
 <body>
-<h1>table 1</h1>
+<h1>Table 1</h1>
 <table>
 
 <tr>
@@ -111,5 +111,6 @@
 <td>28</td>
 </tr>
 
+</body>
 </table>
 </html>
