@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>table 1</title>
-</head>
+
 <body>
 <h1>Table 1</h1>
 <table>
